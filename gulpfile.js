@@ -5,7 +5,7 @@ let name  = require('./package.json').moduleName,
     tasks = require('@electerious/basictasks')(gulp, name)
 
 const scripts = tasks.scripts({
-	from : './src/scripts/main.js',
+	from : './src/scripts/ScrollSnap.js',
 	to   : './dist'
 })
 
